@@ -64,30 +64,18 @@ This repository contains the complete frontend source code for the official web 
 
 ---
 
-## 🗺️ Portal Architecture & User Flow
+##  Portal Architecture & User Flow
 
 Instead of a basic file list, the portal is organized around user journeys to ensure effortless navigation for students, parents, and educators.
 
-###  User Navigation Flow
+## ⚙️ Component & Layout Breakdown
 
-```mermaid
-graph TD
-    A[ Landing Page - index.html] --> B[📚 Academic Hub]
-    A --> C[ Student Guidance]
-    A --> D[ School Life & Media]
-    A --> E[ Administrative Desk]
+A technical view of how key site modules and UI components are structured:
 
-    B --> B1[Academics.html - Syllabus & Courses]
-    B --> B2[calender.html - Exam & Event Schedule]
-
-    C --> C1[Guide.html - Post-Madhyamik Career Counseling]
-
-    D --> D1[sports.html - Athletics & Tournaments]
-    D --> D2[lab-activities.html - Science & Computer Labs]
-    D --> D3[live-program.html - Virtual Assemblies & Broadcasts]
-    D --> D4[achievements.html - Student & Teacher Wall of Fame]
-    D --> D5[other-programs.html - Co-curricular Events]
-
-    E --> E1[Admission.html - Guidelines & Parent Portal]
-    E --> E2[Food.html - Daily Lunch Menu]
-    E --> E3[contactus.html - Staff Directory & Inquiries]
+| Module / Page | Core UI Components | Functional Purpose |
+| :--- | :--- | :--- |
+| **Home (`index.html`)** | Hero Slider, Quick Cards, Metric Counters | First-touch brand identity & fast link routing |
+| **Guidance (`Guide.html`)** | Contact Cards, Resource List | Direct post-Madhyamik teacher-student connectivity |
+| **Events Hub** | Card Grids, Image Galleries | Highlights sports, lab work, and co-curriculars |
+| **Media Center (`live-program.html`)** | Video Embed Containers, Stream Schedules | Virtual event participation via YouTube integration |
+| **Administrative Pages** | Data Tables, Structured Directories | Displays meal plans, schedules, and staff contact info |
