@@ -72,16 +72,16 @@ Instead of a basic file list, the portal is organized around user journeys to en
 
 Tailored experiences designed for every member of our school community:
 
-*   ** For Students**
+For Students
     *   **Career Roadmap:** Explore stream selection and post-Class 10 advice on the [Post-Madhyamik Guidance](Guide.html) page.
     *   **Practical Learning:** Discover hands-on scientific projects in [Lab Activities](lab-activities.html).
     *   **Virtual Events:** Watch live school assemblies and broadcasts via [Live Program](live-program.html).
 
-*   ** For Parents**
+For Parents
     *   **Admissions & Portal:** Access guidelines and application details through the [Parent Portal](Admission.html).
     *   **Daily Campus Life:** Check weekly meal plans on the [Lunch Menu](Food.html) and stay aligned with the [Academic Calendar](calender.html).
     *   **Communication:** Find direct contact info and office hours in the [Staff Directory](contactus.html).
 
-*   **🏆 For Alumni & Community**
+For Alumni & Community
     *   **Wall of Fame:** Celebrate student milestones and faculty achievements on the [Achievements](achievements.html) page.
     *   **Co-Curriculars:** Follow sports tournaments and cultural activities on the [Sports](sports.html) and [Other Programs](other-programs.html) pages.
