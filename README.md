@@ -68,27 +68,24 @@ This repository contains the complete frontend source code for the official web 
 
 Instead of a basic file list, the portal is organized around user journeys to ensure effortless navigation for students, parents, and educators.
 
-## 🖼️ Platform Highlights
+##  Project Roadmap & Progress
 
-<table>
-  <tr>
-    <td width="50%">
-      <h3 align="center">📚 Post-Madhyamik Guidance</h3>
-      <p>Dedicated mentorship module connecting senior educators with Class 10 graduates to help them select academic streams and career paths.</p>
-    </td>
-    <td width="50%">
-      <h3 align="center">🔬 STEM & Lab Portal</h3>
-      <p>Interactive showcase of physics, chemistry, biology, and computer science practical experiments encouraging hands-on learning.</p>
-    </td>
-  </tr>
-  <tr>
-    <td width="50%">
-      <h3 align="center">📺 Live Program Streaming</h3>
-      <p>Integrated broadcast hub allowing parents, alumni, and remote students to join school assemblies and annual functions live.</p>
-    </td>
-    <td width="50%">
-      <h3 align="center">🏆 Achievements & Sports</h3>
-      <p>Digital wall of fame highlighting academic excellence, athletic victories, and extracurricular accomplishments.</p>
-    </td>
-  </tr>
-</table>
+- [x] **Phase 1: Foundation & Core Layout**
+  - [x] Responsive layout setup using standard HTML5 & CSS3.
+  - [x] Navigation bar and school branding integration.
+  - [x] Mobile-friendly layout adjustments.
+
+- [x] **Phase 2: Academic & Guidance Integration**
+  - [x] Dedicated **Post-Madhyamik Guidance** portal for Class 10 students (`Guide.html`).
+  - [x] Science & Computer Lab activity showcase (`lab-activities.html`).
+  - [x] Academic calendar and lunch menu modules (`calender.html`, `Food.html`).
+
+- [x] **Phase 3: Community & Media Hub**
+  - [x] Live program integration with YouTube streaming support (`live-program.html`).
+  - [x] Sports and co-curricular highlights (`sports.html`, `other-programs.html`).
+  - [x] Achievements and Wall of Fame section (`achievements.html`).
+
+- [ ] **Phase 4: Next-Gen Upgrades** *(In Progress)*
+  - [ ] Dynamic contact form integration for direct teacher inquiries.
+  - [ ] Searchable digital notice board.
+  - [ ] Dark mode accessibility toggle.
