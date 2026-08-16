@@ -64,24 +64,30 @@ This repository contains the complete frontend source code for the official web 
 
 ---
 
-##  Website Sitemap
+## 🗺️ Portal Architecture & User Flow
 
-```text
-D.S.B.V-H.S-/
-│
-├──  index.html              # Landing Page / Home Overview
-├──  Academics.html          # Curriculum & Academic Details
-├──  Admission.html          # Admission Guidelines & Parent Portal
-├──  Guide.html              # Post-Madhyamik Career Guidance Page
-├──  calender.html           # Academic Calendar & Event Schedule
-├──  Food.html               # Daily Lunch Menu Information
-├──  contactus.html          # Contact Form & Staff Directory
-│
-├──  Event Pages
-│   ├── sports.html           # Sports & Athletics Highlights
-│   ├── lab-activities.html   # Practical Science & Computer Labs
-│   ├── achievements.html     # Wall of Fame & Student Accolades
-│   ├── live-program.html     # Live Streams & Interactive Sessions
-│   └── other-programs.html   # Co-curricular & Extra-curricular Activities
-│
-└── 📁 assets / styles         # Design system & visual elements
+Instead of a basic file list, the portal is organized around user journeys to ensure effortless navigation for students, parents, and educators.
+
+###  User Navigation Flow
+
+```mermaid
+graph TD
+    A[ Landing Page - index.html] --> B[📚 Academic Hub]
+    A --> C[ Student Guidance]
+    A --> D[ School Life & Media]
+    A --> E[ Administrative Desk]
+
+    B --> B1[Academics.html - Syllabus & Courses]
+    B --> B2[calender.html - Exam & Event Schedule]
+
+    C --> C1[Guide.html - Post-Madhyamik Career Counseling]
+
+    D --> D1[sports.html - Athletics & Tournaments]
+    D --> D2[lab-activities.html - Science & Computer Labs]
+    D --> D3[live-program.html - Virtual Assemblies & Broadcasts]
+    D --> D4[achievements.html - Student & Teacher Wall of Fame]
+    D --> D5[other-programs.html - Co-curricular Events]
+
+    E --> E1[Admission.html - Guidelines & Parent Portal]
+    E --> E2[Food.html - Daily Lunch Menu]
+    E --> E3[contactus.html - Staff Directory & Inquiries]
