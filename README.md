@@ -14,7 +14,7 @@
     A modern, feature-packed digital portal for <b>Digsui Sadhana Banga Vidyalaya (H.S.)</b>, designed to bridge the gap between students, educators, and parents.
     <br />
     <br />
-    <a href="https://i-am-debapriyo.github.io/D.S.B.V-H.S-/">🌐 <strong>Explore the Live Website »</strong></a>
+    <a href="https://i-am-debapriyo.github.io/D.S.B.V-H.S-/"> <strong>Explore the Live Website »</strong></a>
     <br />
     <br />
     <a href="#-key-features">Key Features</a> •
@@ -68,14 +68,20 @@ This repository contains the complete frontend source code for the official web 
 
 Instead of a basic file list, the portal is organized around user journeys to ensure effortless navigation for students, parents, and educators.
 
-## ⚙️ Component & Layout Breakdown
+##  User Journey Maps
 
-A technical view of how key site modules and UI components are structured:
+Tailored experiences designed for every member of our school community:
 
-| Module / Page | Core UI Components | Functional Purpose |
-| :--- | :--- | :--- |
-| **Home (`index.html`)** | Hero Slider, Quick Cards, Metric Counters | First-touch brand identity & fast link routing |
-| **Guidance (`Guide.html`)** | Contact Cards, Resource List | Direct post-Madhyamik teacher-student connectivity |
-| **Events Hub** | Card Grids, Image Galleries | Highlights sports, lab work, and co-curriculars |
-| **Media Center (`live-program.html`)** | Video Embed Containers, Stream Schedules | Virtual event participation via YouTube integration |
-| **Administrative Pages** | Data Tables, Structured Directories | Displays meal plans, schedules, and staff contact info |
+*   ** For Students**
+    *   **Career Roadmap:** Explore stream selection and post-Class 10 advice on the [Post-Madhyamik Guidance](Guide.html) page.
+    *   **Practical Learning:** Discover hands-on scientific projects in [Lab Activities](lab-activities.html).
+    *   **Virtual Events:** Watch live school assemblies and broadcasts via [Live Program](live-program.html).
+
+*   ** For Parents**
+    *   **Admissions & Portal:** Access guidelines and application details through the [Parent Portal](Admission.html).
+    *   **Daily Campus Life:** Check weekly meal plans on the [Lunch Menu](Food.html) and stay aligned with the [Academic Calendar](calender.html).
+    *   **Communication:** Find direct contact info and office hours in the [Staff Directory](contactus.html).
+
+*   **🏆 For Alumni & Community**
+    *   **Wall of Fame:** Celebrate student milestones and faculty achievements on the [Achievements](achievements.html) page.
+    *   **Co-Curriculars:** Follow sports tournaments and cultural activities on the [Sports](sports.html) and [Other Programs](other-programs.html) pages.
