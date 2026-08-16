@@ -85,7 +85,7 @@ Instead of a basic file list, the portal is organized around user journeys to en
   - [x] Sports and co-curricular highlights (`sports.html`, `other-programs.html`).
   - [x] Achievements and Wall of Fame section (`achievements.html`).
 
-- [ ] **Phase 4: Next-Gen Upgrades** *(In Progress)*
+- [] **Phase 4: Next-Gen Upgrades** *(In Progress)*
   - [ ] Dynamic contact form integration for direct teacher inquiries.
   - [ ] Searchable digital notice board.
   - [ ] Dark mode accessibility toggle.
